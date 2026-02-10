@@ -11,7 +11,7 @@ The notebook inspects feature characteristics and produces explicit preprocessin
 ### Notebook
  
  **View the full analysis:**  
-[Open LinRegPreProcess.ipynb](./LinRegPreProcess.ipynb)
+[Open LinRegPreProcess.ipynb](./LinRegEDA.ipynb)
 
 **Static HTML version (no scrolling lag):** 
-[Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/PreProc/LinRegEDA.html)
+[Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/LinRegEDA.html)
