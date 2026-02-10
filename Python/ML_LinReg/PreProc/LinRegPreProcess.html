@@ -7517,7 +7517,35 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Design-Summary">Design Summary<a class="anchor-link" href="#Design-Summary">¶</a></h3><p>This Python script implements an end-to-end, decision-driven preprocessing pipeline for tabular machine learning data. It systematically evaluates numeric and categorical features for missingness, distributional issues, cardinality, encoding strategy, and multicollinearity, using target-aware heuristics where appropriate. Rather than performing silent transformations, the script records each preprocessing decision—imputation, transformation, scaling, encoding, or feature removal—into structured summary artifacts, enabling transparency, reproducibility, and defensible feature engineering. Collectively, these recommendations are designed to guide users in constructing robust and interpretable data pipelines specifically suited for Linear Regression modeling.</p>
+<h3 id="Design-Summary">Design Summary<a class="anchor-link" href="#Design-Summary">¶</a></h3><p>This Python script addresses a common bottleneck in tabular machine learning workflows, particularly when datasets have many features or high-cardinality categorical variables:</p>
+<p><strong>Key problems it solves:</strong></p>
+<ul>
+<li>Systematically analyzes numeric and categorical features for:<ul>
+<li>Missing values and imputation strategy</li>
+<li>Outliers and distributional skew</li>
+<li>Feature scaling</li>
+<li>Cardinality and encoding decisions</li>
+<li>Multicollinearity between features</li>
+</ul>
+</li>
+<li>Reduces feature explosion caused by one-hot encoding of high-cardinality categorical variables</li>
+<li>Ensures target-aware preprocessing decisions to prevent information leakage</li>
+</ul>
+<p><strong>What the script provides:</strong></p>
+<ul>
+<li>Detailed, structured summary artifacts documenting each preprocessing recommendation</li>
+<li>Transparency and reproducibility for all decisions, including:<ul>
+<li>Imputation method</li>
+<li>Distributional transformations</li>
+<li>Scaling</li>
+<li>Encoding</li>
+<li>Feature removal</li>
+</ul>
+</li>
+<li>Guidance for constructing robust, interpretable data pipelines specifically for Linear Regression modeling</li>
+</ul>
+<p><strong>Outcome:</strong><br/>
+Users gain actionable, defensible preprocessing guidance that scales to large or complex datasets, helping them build efficient pipelines without manually inspecting every feature.</p>
 <hr/>
 </div>
 </div>
