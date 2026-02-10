@@ -1,0 +1,6 @@
+Col,Missing %,Impute?,Imputation Type,Drop Due to Missing?,Drop Due to High Cardinality?,Cardinality,Rare Category Level,Encoding,Justification
+Neighborhood,0.0,no,none,No,Yes,high (36),few,consider drop,No missing values detected; the column has high (36) cardinality; categories are nominal; high cardinality and low correlation with target; consider dropping;
+HouseStyle,0.0,no,none,No,No,low (4),few,one-hot,No missing values detected; the column has low (4) cardinality; categories are nominal; one-hot is recommended to balance model stability and complexity
+Flag,0.0,no,none,No,No,low (2),few,binary / no encoding,No missing values detected; the column has low (2) cardinality; categories are nominal; binary / no encoding is recommended to balance model stability and complexity
+Misc,0.0,no,none,No,No,low (9),few,one-hot,No missing values detected; the column has low (9) cardinality; categories are nominal; one-hot is recommended to balance model stability and complexity
+Quality,0.0,no,none,No,No,low (4),few,one-hot,No missing values detected; the column has low (4) cardinality; categories are nominal; one-hot is recommended to balance model stability and complexity

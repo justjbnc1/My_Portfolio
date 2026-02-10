@@ -1,0 +1,4 @@
+Section,Feature 1,Feature 2,Feature 1 Corr with Target,Feature 2 Corr with Target,Correlation Between Features,Drop Suggestion / Notes
+Categorical-Categorical Correlations,Flag_No,Flag_Yes,-0.0,0.0,1.0,Suggest drop: Flag_Yes (lower correlation with target)
+Numeric-Numeric Correlations,AveRooms,AveBedrms,0.16,-0.05,0.84,Suggest drop: AveBedrms (lower correlation with target)
+Numeric-Numeric Correlations,Latitude,Longitude,-0.14,-0.05,0.92,Suggest drop: Longitude (lower correlation with target)
