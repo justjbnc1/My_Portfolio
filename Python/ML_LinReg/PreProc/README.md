@@ -14,4 +14,4 @@ The notebook inspects feature characteristics and produces explicit preprocessin
 [Open LinRegPreProcess.ipynb](./LinRegPreProcess.ipynb)
 
 **Static HTML version (no scrolling lag):** 
-[Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/MachineLearning_LinearRegression/Data%20PreProcessing/LinRegPreProcess.html)
+[Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/PreProc/LinRegPreProcess.html)
