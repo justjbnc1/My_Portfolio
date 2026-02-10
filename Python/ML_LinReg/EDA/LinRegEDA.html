@@ -7583,7 +7583,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
@@ -7616,7 +7616,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ---------------- Load dataset ----------------</span>
@@ -7644,7 +7644,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ---------------- Example categorical columns ----------------</span>
@@ -7677,7 +7677,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ---------------- Features / target split ----------------</span>
@@ -7716,7 +7716,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ---------------- Configuration ----------------</span>
@@ -7749,7 +7749,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ---------------- Ordinal columns ----------------</span>
@@ -7838,7 +7838,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 <h4 id="7.-Summary-Table-and-Export">7. Summary Table and Export<a class="anchor-link" href="#7.-Summary-Table-and-Export">¶</a></h4><ul>
 <li><p>All feature metrics, decisions, and justifications are consolidated into a <strong>Pandas DataFrame</strong>.</p>
 </li>
-<li><p>The DataFrame is exported as numeric_preprocessing_summary.csv for documentation and review, providing a <strong>complete, reproducible record of numeric preprocessing recommendations</strong>.</p>
+<li><p>The DataFrame is exported as numeric_EDA_summary.csv for documentation and review, providing a <strong>complete, reproducible record of numeric preprocessing recommendations</strong>.</p>
 </li>
 </ul>
 </div>
@@ -7849,7 +7849,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ---------------- Numeric preprocessing ----------------</span>
@@ -7962,7 +7962,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
     <span class="p">})</span>
 
 <span class="c1"># ----- Export to CSV -----</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">numeric_results</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"numeric_preprocessing_summary.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">numeric_results</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"numeric_EDA_summary.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8040,7 +8040,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 </ul>
 <p>This ensures <strong>every recommendation is transparent</strong> and tied to specific feature properties.</p>
 <h4 id="6.-Summary-Table-and-Export">6. Summary Table and Export<a class="anchor-link" href="#6.-Summary-Table-and-Export">¶</a></h4><ul>
-<li>All metrics, decisions, and justifications are consolidated into a <strong>Pandas DataFrame</strong> (<code>categorical_preprocessing_summary</code>).</li>
+<li>All metrics, decisions, and justifications are consolidated into a <strong>Pandas DataFrame</strong> (<code>categorical_EDA_summary</code>).</li>
 <li>The summary is exported as a CSV file for documentation, reporting, and review.</li>
 </ul>
 <p>This provides a <strong>complete, reproducible record of categorical preprocessing recommendations</strong> without altering the original dataset.</p>
@@ -8052,7 +8052,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ---------------- Categorical preprocessing ----------------</span>
@@ -8200,7 +8200,7 @@ Users gain actionable, defensible preprocessing guidance, (as a result of automa
     <span class="p">})</span>
 
 <span class="c1"># ---------- Export to CSV ----------</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">categorical_results</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"categorical_preprocessing_summary.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">categorical_results</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"categorical_EDA_summary.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8311,7 +8311,7 @@ Drop argmin(|corr(feature, target)|)</p>
 </ul>
 <p>This explicitly resolves <strong>linear dependence introduced by full one-hot encoding</strong>.</p>
 <h4 id="10.-Output-Artifact">10. Output Artifact<a class="anchor-link" href="#10.-Output-Artifact">¶</a></h4><ul>
-<li>All findings are written to a single CSV file:<ul>
+<li>All findings are written to a single CSV file (multicollinearity_EDA_Summary):<ul>
 <li>Section (context)</li>
 <li>Feature pair</li>
 <li>Correlation between features</li>
@@ -8329,14 +8329,14 @@ Drop argmin(|corr(feature, target)|)</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ---------------- Multicollinearity Check ----------------</span>
 
 <span class="c1"># Threshold for high correlation</span>
 <span class="n">corr_threshold</span> <span class="o">=</span> <span class="mf">0.8</span>
-<span class="n">recommendation_file_csv</span> <span class="o">=</span> <span class="s2">"multicollinearity_Summary.csv"</span>
+<span class="n">recommendation_file_csv</span> <span class="o">=</span> <span class="s2">"multicollinearity_EDA_Summary.csv"</span>
 
 
 <span class="c1"># Prepare categorical imputation lookup</span>
