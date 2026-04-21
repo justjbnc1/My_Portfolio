@@ -6,7 +6,11 @@ Instead of directly transforming or modifying the dataset, the system evaluates 
 
 The focus is on transparency, interpretability, and reproducibility of preprocessing decisions.
 
----
+**View the full analysis:**  
+[Open LinRegPreProcess.ipynb](./LinRegEDA.ipynb)
+
+**Static HTML version (no scrolling lag):** 
+[Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/LinRegEDA.html)
 
 ## What This Project Does
 
@@ -22,8 +26,6 @@ The pipeline performs a full feature-level and dataset-level evaluation, includi
 
 All results are generated as **recommendations only**, not applied transformations.
 
----
-
 ## Key Outputs
 
 The script generates the following artifacts:
@@ -35,13 +37,9 @@ The script generates the following artifacts:
 - `categorical_preprocessing_summary.csv`  
   Analysis of categorical features including cardinality, rare categories, encoding strategy, and risk scoring.
 
----
-
 ### Unified Feature Ranking
 - `feature_risk_ranking.csv`  
   A consolidated ranking of all features (numeric + categorical) based on overall risk score.
-
----
 
 ### Executive Dataset Assessment
 - `executive_model_summary.txt`  
@@ -53,8 +51,6 @@ The script generates the following artifacts:
     - SUITABLE
     - CONDITIONAL
     - NOT RECOMMENDED
-
----
 
 ## Design Philosophy
 
@@ -76,9 +72,3 @@ This system is intended for:
 - Model readiness evaluation
 - Educational demonstration of structured ML preprocessing
 - Early-stage dataset audit before modeling
-
-**View the full analysis:**  
-[Open LinRegPreProcess.ipynb](./LinRegEDA.ipynb)
-
-**Static HTML version (no scrolling lag):** 
-[Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/LinRegEDA.html)
