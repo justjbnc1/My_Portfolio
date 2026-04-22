@@ -6,14 +6,11 @@ Rather than modifying data directly, the system evaluates each feature and produ
 
 The framework is especially useful for early-stage dataset auditing and feature engineering design.
 
-**View the full analysis:**  
-[Open LinRegPreProcess.ipynb](./LinRegEDA.ipynb)
+**View the full analysis:**  [Open LinRegPreProcess.ipynb](./LinRegEDA.ipynb)
 
-**Static HTML version (no scrolling lag):** 
-[Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/LinRegEDA.html)
+**Static HTML version (no scrolling lag):** [Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/LinRegEDA.html)
 
-**View Output File:**
-[Open preprocessing_output4.xlsx](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/preprocessing_output4.xlsx)
+**View Output File:** [Open preprocessing_output4.xlsx](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/preprocessing_output4.xlsx)
 
 ## What This Project Does
 
