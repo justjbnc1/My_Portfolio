@@ -12,6 +12,8 @@ The framework is especially useful for early-stage dataset auditing and feature 
 **Static HTML version (no scrolling lag):** 
 [Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/LinRegEDA.html)
 
+**View Output File:**
+[Open preprocessing_output4.xlsx](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/preprocessing_output4.xlsx)
 
 ## What This Project Does
 
