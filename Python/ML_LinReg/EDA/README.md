@@ -1,10 +1,10 @@
-# Linear Regression Preprocessing Recommendation Engine (Version 2)
+# Feature Preprocessing Recommendation Engine
 
-This project implements a structured, analysis-only preprocessing system designed to support linear regression modeling.
+This project implements a structured, analysis-only preprocessing system for tabular machine learning datasets.
 
-Instead of directly transforming or modifying the dataset, the system evaluates each feature and generates clear, evidence-based recommendations for how the data *should be prepared* in a downstream machine learning pipeline.
+Rather than modifying data directly, the system evaluates each feature and produces explicit, evidence-based recommendations for how it should be handled in a downstream modeling pipeline. The design prioritizes transparency, reproducibility, and interpretable decision-making.
 
-The focus is on transparency, interpretability, and reproducibility of preprocessing decisions.
+The framework is especially useful for early-stage dataset auditing and feature engineering design.
 
 **View the full analysis:**  
 [Open LinRegPreProcess.ipynb](./LinRegEDA.ipynb)
@@ -12,63 +12,68 @@ The focus is on transparency, interpretability, and reproducibility of preproces
 **Static HTML version (no scrolling lag):** 
 [Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/LinRegEDA.html)
 
+
 ## What This Project Does
 
-The pipeline performs a full feature-level and dataset-level evaluation, including:
+This pipeline performs a comprehensive feature-level evaluation across both numeric and categorical variables.
 
-- Missing data analysis and imputation strategy selection
-- Numeric feature analysis (skew, outliers, correlation with target)
-- Categorical feature analysis (cardinality, rare categories, encoding strategy)
-- Imputation confidence and signal distortion risk scoring
-- Unified feature risk ranking system
-- Multicollinearity and redundancy detection
-- Final dataset-level suitability assessment for linear regression
+It includes:
 
-All results are generated as **recommendations only**, not applied transformations.
+- Missing data analysis and imputation strategy selection  
+- Numeric feature evaluation (distribution behavior, skew, correlation with target)  
+- Categorical feature evaluation (cardinality, rare categories, encoding strategy)  
+- Imputation confidence and signal distortion risk scoring  
+- Unified feature risk scoring system  
+- Composite feature value scoring (predictive value vs. risk)  
+- Rule-based action labeling (KEEP, TRANSFORM, DROP, REVIEW)  
+- Final ranked feature prioritization for modeling decisions  
+
+All outputs are **recommendations only** and no transformations are applied directly to the dataset.
 
 ## Key Outputs
 
-The script generates the following artifacts:
+The script generates structured outputs to support feature selection and preprocessing design.
 
 ### Feature-Level Summaries
-- `numeric_preprocessing_summary.csv`  
-  Detailed analysis of numeric features including missingness, skew, outliers, and risk scoring.
 
-- `categorical_preprocessing_summary.csv`  
-  Analysis of categorical features including cardinality, rare categories, encoding strategy, and risk scoring.
+- **numeric_preprocessing_summary.csv** *(or dataframe equivalent)*  
+  Evaluation of numeric features including missingness, correlation with target, skew, imputation method, and risk scoring.
+
+- **categorical_preprocessing_summary.csv** *(or dataframe equivalent)*  
+  Evaluation of categorical features including cardinality, rare value structure, encoding strategy, and risk scoring.
 
 ### Unified Feature Ranking
-- `feature_risk_ranking.csv`  
-  A consolidated ranking of all features (numeric + categorical) based on overall risk score.
 
-### Executive Dataset Assessment
-- `executive_model_summary.txt`  
-  A high-level evaluation of dataset suitability for linear regression, including:
-  - Overall feature risk distribution
-  - Signal strength indicators
-  - Structural concerns (skew, missingness, instability)
-  - Final modeling verdict:
-    - SUITABLE
-    - CONDITIONAL
-    - NOT RECOMMENDED
+- **feature_risk_ranking.csv**  
+  Combined ranking of all features (numeric + categorical) based on composite score, balancing predictive value and risk.
+
+### Exported Report
+
+- **preprocessing_output.xlsx**  
+  Multi-sheet export containing:
+  - Numeric feature summary  
+  - Categorical feature summary  
+  - Unified feature ranking  
 
 ## Design Philosophy
 
-This project follows an **analysis-first preprocessing approach**, meaning:
+This project follows an **analysis-first preprocessing paradigm**, meaning:
 
-- No data is modified silently
-- Every transformation is recommended, not executed
-- All decisions are explainable and traceable
-- Outputs are designed to support human-driven pipeline construction
+- No transformations are applied directly to the dataset  
+- Every preprocessing decision is explicitly scored and justified  
+- Outputs are structured as recommendations rather than actions  
+- Feature behavior is quantified before any modeling decisions are made  
+- All outputs are designed to be auditable and reproducible  
 
-The goal is to provide a **defensible preprocessing layer** that can be used to build robust and interpretable machine learning pipelines, especially for linear regression models.
+This approach ensures preprocessing is **transparent, defensible, and interpretable**, rather than implicit or automated.
 
-## Intended Use
+## Intended Use Cases
 
-This system is intended for:
+This system is designed for:
 
-- Data preprocessing strategy design
-- Feature engineering planning
-- Model readiness evaluation
-- Educational demonstration of structured ML preprocessing
-- Early-stage dataset audit before modeling
+- Feature engineering planning  
+- Dataset quality auditing  
+- Pre-modeling exploratory analysis  
+- Preprocessing strategy design  
+- Educational demonstrations of structured ML pipelines  
+- Building interpretable linear or generalized regression pipelines  
