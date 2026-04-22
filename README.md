@@ -30,5 +30,3 @@ A structured analysis system that evaluates dataset characteristics and generate
 
 - 🔗 LinkedIn: https://linkedin.com/in/josephbenjaminclt  
 - 📧 Email: justjbnc1@gmail.com
-- 📞 Phone: 630-520-2878  
- 
