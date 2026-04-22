@@ -24,7 +24,7 @@ A structured analysis system that evaluates dataset characteristics and generate
 
 - Feature-level diagnostics (missingness, variance, correlation risk)
 - Transparent rule-based decision logic
-- Exportable analysis outputs (CSV reports)
+- Exportable analysis output (Excel Workbook))
 
 ## Contact
 
