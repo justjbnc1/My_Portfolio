@@ -19,7 +19,7 @@ Data and analytics professional with 15+ years of experience focused on enterpri
 
 ## Featured Projects
 
-### 📊 [Preprocessing Recommendation Engine](https://github.com/justjbnc1/My_Portfolio/tree/main/Python/ML_LinReg/EDA)
+### 📊 [Preprocessing Recommendation Engine (Python)](https://github.com/justjbnc1/My_Portfolio/tree/main/Python/ML_LinReg/EDA)
 A structured analysis system that evaluates dataset characteristics and generates preprocessing recommendations for regression modeling.
 
 - Feature-level diagnostics (missingness, variance, correlation risk)
