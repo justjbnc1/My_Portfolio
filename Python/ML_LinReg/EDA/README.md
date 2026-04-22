@@ -13,11 +13,11 @@ This project implements a **structured feature engineering and preprocessing dec
 
 The system is currently demonstrated using the **Ames Housing dataset (House Prices)** from `sklearn.datasets.fetch_openml`.
 
-**View the full analysis:**  [Open LinRegPreProcess.ipynb](./LinRegEDA.ipynb)
+**View the full analysis:**  [LinRegPreProcess.ipynb](./LinRegEDA.ipynb)
 
-**Static HTML version (no scrolling lag):** [Open LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/LinRegEDA.html)
+**Static HTML version (no scrolling lag):** [LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/LinRegEDA.html)
 
-**View Output File:** [Open preprocessing_output4.xlsx](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/preprocessing_output4.xlsx)
+**View Output File:** [preprocessing_output4.xlsx](https://justjbnc1.github.io/My_Portfolio/Python/ML_LinReg/EDA/preprocessing_output4.xlsx)
 
 ---
 
