@@ -13,7 +13,7 @@ Beyond the math, this project also highlights something important:
 
 **View the full analysis:**  [yahtzeeRoll.ipynb](./yahtzeeRoll.ipynb)
 
-**Static HTML version (no scrolling lag):** [LinRegPreProcess.html](https://justjbnc1.github.io/My_Portfolio/Python/Yahtzee/YahtzeeFiveOfaKind/yahtzeeRoll.html)
+**Static HTML version (no scrolling lag):** [yahtzeeRoll.html](https://justjbnc1.github.io/My_Portfolio/Python/Yahtzee/YahtzeeFiveOfaKind/yahtzeeRoll.html)
 
 ---
 
