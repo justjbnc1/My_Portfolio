@@ -7,9 +7,9 @@
 
 ## Contact
 
-- [LinkedIn: https://linkedin.com/in/josephbenjaminclt](https://linkedin.com/in/josephbenjaminclt)
-- [Email: justjbnc1@gmail.com](mailto:justjbnc1@gmail.com)
-- [Download My Resume](Joseph_Benjamin_Resume2.pdf)
+- 🔗 [LinkedIn: https://linkedin.com/in/josephbenjaminclt](https://linkedin.com/in/josephbenjaminclt)
+- 📧 [Email: justjbnc1@gmail.com](mailto:justjbnc1@gmail.com)
+- 📄 [Download My Resume](Joseph_Benjamin_Resume2.pdf)
 
 ## Summary of Qualifications
 
