@@ -8,7 +8,7 @@
 ## Contact
 
 - 🔗 [LinkedIn: https://linkedin.com/in/josephbenjaminclt](https://linkedin.com/in/josephbenjaminclt)
-- 📧 [Email: justjbnc1@gmail.com](justjbnc1@gmail.com)
+- 📧 [Email: justjbnc1@gmail.com](mailto:justjbnc1@gmail.com)
 
 ## Summary of Qualifications
 
