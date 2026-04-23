@@ -11,10 +11,6 @@
 - 📧 [Email: justjbnc1@gmail.com](mailto:justjbnc1@gmail.com)
 - 📄 [Download My Resume](Joseph_Benjamin_Resume2.pdf)
 
-## Summary of Qualifications
-
-Data and analytics professional with 15+ years of experience focused on enterprise data governance, business intelligence engineering, and data security systems. Specialized in building scalable frameworks for data quality, classification, and controlled data access in large enterprise environments. Strong emphasis on translating business requirements into governed, production-ready data solutions.
-
 ## Technical Toolkit
 
 - Python (Pandas, NumPy, Scikit-learn)
