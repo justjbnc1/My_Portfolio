@@ -11,6 +11,10 @@ Instead of solving this purely through mathematical formulas, I use **Python sim
 Beyond the math, this project also highlights something important:  
 **data analysis and probability don’t always have to be serious or business-focused.** They can also be applied to games, curiosity-driven questions, and everyday randomness in a way that makes analytical thinking more intuitive, visual, and enjoyable.
 
+**View the full analysis:**  [yahtzeeRoll.ipynb](./yahtzeeRoll.ipynb)
+
+**Static HTML version (no scrolling lag):** [yahtzeeRoll.html](./yahtzeeRoll.html)
+
 ---
 
 ## Objective
