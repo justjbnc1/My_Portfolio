@@ -3,6 +3,13 @@
 
 ### Data Governance • Analytics Engineering • Business Intelligence • Data Security
 
+---
+
+## Contact
+
+- 🔗 LinkedIn: https://linkedin.com/in/josephbenjaminclt  
+- 📧 Email: justjbnc1@gmail.com
+
 ## Summary of Qualifications
 
 Data and analytics professional with 15+ years of experience focused on enterprise data governance, business intelligence engineering, and data security systems. Specialized in building scalable frameworks for data quality, classification, and controlled data access in large enterprise environments. Strong emphasis on translating business requirements into governed, production-ready data solutions.
@@ -38,8 +45,3 @@ Key components include:
 - Visual analysis of outcomes, convergence behavior, and starting roll strength
 
 The project demonstrates how randomness can be structured, simulated, and analyzed using Python, turning an intuitive game scenario into a clear, data-driven probability model.
-
-## Contact
-
-- 🔗 LinkedIn: https://linkedin.com/in/josephbenjaminclt  
-- 📧 Email: justjbnc1@gmail.com
