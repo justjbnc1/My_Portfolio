@@ -26,7 +26,7 @@ A structured analysis system that evaluates dataset characteristics and generate
 - Transparent rule-based decision logic
 - Exportable analysis output (Excel Workbook)
 
-### [🎲 Yahtzee (5 of a Kind) — Monte Carlo Probability Simulation (Python)](https://github.com/justjbnc1/My_Portfolio/tree/main/Python/Yahtzee/YahtzeeFiveOfaKind)
+### [🎲 Yahtzee (5 of a Kind) — Probability Simulation (Python)](https://github.com/justjbnc1/My_Portfolio/tree/main/Python/Yahtzee/YahtzeeFiveOfaKind)
 A simulation-based probability model that estimates the likelihood of rolling a Yahtzee (5 of a kind) within a single turn of three dice rolls.
 
 This project uses Monte Carlo simulation to model thousands of Yahtzee turns under consistent decision rules, transforming a game of chance into a measurable probabilistic system.
