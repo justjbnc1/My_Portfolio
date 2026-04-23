@@ -1,6 +1,6 @@
 # 🎲 Yahtzee (5 of a Kind) — Monte Carlo Probability Simulation in Python
 
-## 📌 Overview
+## Overview
 
 This project explores a classic question from the game **Yahtzee**:
 
