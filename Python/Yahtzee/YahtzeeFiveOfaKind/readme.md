@@ -86,7 +86,3 @@ While Yahtzee is just a game, the same techniques used here apply to real-world 
 - Forecasting uncertain outcomes
 - Decision-making under uncertainty
 - Simulation-based business analysis
-
-At the same time, this project reinforces an important idea:
-
-> Data analysis isn’t only about business dashboards or financial models — it can also be a creative way to explore games, curiosity, and randomness in the world around us.
