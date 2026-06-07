@@ -1,7 +1,7 @@
 
 # Joseph Benjamin
 
-### Data Governance • Analytics Engineering • Business Intelligence • Data Security
+### Business Intelligence • Data Analysis • Data Governance • Data Asset Scanning & Classification
 
 ---
 
